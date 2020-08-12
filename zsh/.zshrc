@@ -26,6 +26,9 @@ fi
 alias home="ssh ivan@home.buymov.ru"
 alias k="kubectl"
 
+# local bin
+export  PATH=${PATH}:${HOME}/.local/bin
+
 # brew binaries
 export PATH=${PATH}:/usr/local/sbin
 
