@@ -9,7 +9,7 @@ alias k="kubectl --insecure-skip-tls-verify"
 alias cmdb='ssh -n srvk1601 '\''/usr/local/bin/cmdb'\'''
 alias cqn='ssh -n srvk1601 '\''/usr/local/bin/cmdb -msf3'\'''
 #alias mcc="/Users/ivan.buymov/.pyenv/versions/mcc38/bin/python /Users/ivan.buymov/work/one-cloud/bin/mcc"
-alias mcc="/Users/ivan.buymov/work/go-one-cloud/mcc"
+alias mcc="/Users/ivan.buymov/work/go-one-cloud/build/darwin/amd64/mcc"
 alias adm="ssh ivan.buymov@srvk1601"
 alias cqn='cmdb -msf3'
 alias dipower='ssh -n srvk1601 '\''/usr/local/bin/dipower'\'''
@@ -70,3 +70,5 @@ end
 # Hishtory Config:
 export PATH="$PATH:/Users/ivan.buymov/.hishtory"
 source /Users/ivan.buymov/.hishtory/config.fish
+
+source /Users/ivan.buymov/.config/fish/config_private.fish

@@ -1,0 +1,53 @@
+import = ["/Users/ivan.buymov/.config/alacritty/themes/themes/challenger_deep.toml"]
+
+[font]
+size = 15
+
+[font.normal]
+family = "PragmataProMonoLiga Nerd Font"
+
+[[keyboard.bindings]]
+chars = "\u001Bb"
+key = "Left"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001Bf"
+key = "Right"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001BOH"
+key = "Left"
+mode = "AppCursor"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001BOF"
+key = "Right"
+mode = "AppCursor"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0015"
+key = "Back"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001B\u007F"
+key = "Back"
+mods = "Alt"
+
+[scrolling]
+multiplier = 0
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t@"
+
+[shell]
+program = "/usr/local/bin/fish"
+
+[window]
+decorations = "none"
+startup_mode = "Maximized"
