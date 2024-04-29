@@ -4,8 +4,8 @@ import = ["/Users/ivan.buymov/.config/alacritty/themes/themes/challenger_deep.to
 size = 15
 
 [font.normal]
-#family = "PragmataProMonoLiga Nerd Font"
-family = "JetBrainsMono Nerd Font"
+#family = "PragmataPro Mono Liga"
+family = "PragmataProMono Nerd Font"
 
 [[keyboard.bindings]]
 chars = "\u001Bb"

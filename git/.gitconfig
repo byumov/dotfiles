@@ -1,0 +1,30 @@
+[user]
+        name = Ivan Buymov
+        email = ivan.buymov@corp.mail.ru
+[core]
+        excludesfile = /Users/ivan.buymov/.gitignore
+        ignorecase = true
+        fsmonitor = true
+        pager = delta
+[init]
+        defaultBranch = master
+[url "ssh://git@stash.odkl.ru:7999"]
+        insteadOf = https://stash.odkl.ru
+[pull]
+        rebase = true
+[interactive]
+    diffFilter = delta --color-only
+[delta]
+    navigate = true    # use n and N to move between diff sections
+    side-by-side = true
+    line-numbers = true
+
+    # delta detects terminal colors automatically; set one of these to disable auto-detection
+    # dark = true
+    # light = true
+
+[merge]
+    conflictstyle = diff3
+
+[diff]
+    colorMoved = default

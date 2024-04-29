@@ -8,7 +8,8 @@ export PATH="/opt/homebrew/sbin:$PATH"
 export HISHTORY_SERVER=http://history.buymov.ru
 
 # aliases
-alias ls="eza --icons"
+#alias ls="eza --icons"
+alias ls="lsd"
 alias vim='nvim'
 alias ll="ls -la"
 alias k="kubectl --insecure-skip-tls-verify"

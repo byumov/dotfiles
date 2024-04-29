@@ -37,7 +37,9 @@ brew install orbstack \
              virtualenv \
              youtube-dl \
              eza \
-             coreutils
+             coreutils \
+             lsd \
+             git-delta
 ```
 
 ### Configs
