@@ -54,8 +54,8 @@ brew install orbstack \
 
 ### Fonts
 
-[https://www.nerdfonts.com](https://www.nerdfonts.com)
-[https://github.com/ryanoasis/nerd-fonts#font-patcher](https://github.com/ryanoasis/nerd-fonts#font-patcher)
+- [https://www.nerdfonts.com](https://www.nerdfonts.com)
+- [https://github.com/ryanoasis/nerd-fonts#font-patcher](https://github.com/ryanoasis/nerd-fonts#font-patcher)
 
 List fonts: `system_profiler SPFontsDataType`
 
