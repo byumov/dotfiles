@@ -1,5 +1,14 @@
+set fish_greeting
+
+# brew
+export PATH="/opt/homebrew/bin:$PATH"
+export PATH="/opt/homebrew/sbin:$PATH"
+
+# hishstory https://github.com/ddworken/hishtory
+export HISHTORY_SERVER=http://history.buymov.ru
+
 # aliases
-alias ls="exa --icons"
+alias ls="eza --icons"
 alias vim='nvim'
 alias ll="ls -la"
 alias k="kubectl --insecure-skip-tls-verify"
@@ -9,8 +18,7 @@ alias k="kubectl --insecure-skip-tls-verify"
 alias tp='ssh -J tp'
 alias cmdb='tp -n srvk1601 '\''/usr/local/bin/cmdb'\'''
 alias cqn='tp -n srvk1601 '\''/usr/local/bin/cmdb -msf3'\'''
-#alias mcc="/Users/ivan.buymov/.pyenv/versions/mcc38/bin/python /Users/ivan.buymov/work/one-cloud/bin/mcc"
-alias mcc="/Users/ivan.buymov/work/go-one-cloud/build/darwin/amd64/mcc"
+#alias mcc="/Users/ivan.buymov/work/go-one-cloud/build/darwin/amd64/mcc"
 alias adm="tp srvk1601"
 alias cqn='cmdb -msf3'
 alias dipower='ssh -n srvk1601 '\''/usr/local/bin/dipower'\'''

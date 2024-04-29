@@ -4,7 +4,8 @@ import = ["/Users/ivan.buymov/.config/alacritty/themes/themes/challenger_deep.to
 size = 15
 
 [font.normal]
-family = "PragmataProMonoLiga Nerd Font"
+#family = "PragmataProMonoLiga Nerd Font"
+family = "JetBrainsMono Nerd Font"
 
 [[keyboard.bindings]]
 chars = "\u001Bb"
@@ -46,7 +47,7 @@ save_to_clipboard = true
 semantic_escape_chars = ",│`|:\"' ()[]{}<>\t@"
 
 [shell]
-program = "/usr/local/bin/fish"
+program = "/opt/homebrew/bin/fish"
 
 [window]
 decorations = "none"
