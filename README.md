@@ -39,7 +39,8 @@ brew install orbstack \
              eza \
              coreutils \
              lsd \
-             git-delta
+             git-delta \
+             ffmpeg
 ```
 
 ### Configs

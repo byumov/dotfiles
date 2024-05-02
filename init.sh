@@ -1,3 +1,6 @@
+mkdir -p ~/.config/lsd
+
 # create links
-ln -sf $HOME/dotfiles/tmux/.tmux.conf $HOME/.tmux.conf
-ln -sf $HOME/dotfiles/alacritty/.alacritty.yml $HOME/.alacritty.yml
+ln -sf ~/dotfiles/tmux/.tmux.conf ~/.tmux.conf
+ln -sf ~/dotfiles/alacritty/.alacritty.yml ~/.alacritty.yml
+ln -sf ~/dotfiles/lsd/config.yaml ~/.config/lsd/config.yaml
