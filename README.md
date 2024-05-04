@@ -86,3 +86,6 @@ List fonts: `system_profiler SPFontsDataType`
 - [Karabiner-Elements](https://karabiner-elements.pqrs.org/)
   - non_us_backslash -> grave_accent_and_tilde
   - caps_lock -> left_control
+- [Winbox](https://github.com/nrlquaker/winbox-mac)
+- [Яндекс.Музыка](https://www.music.yandex.ru/download/)
+
