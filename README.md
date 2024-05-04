@@ -83,3 +83,6 @@ List fonts: `system_profiler SPFontsDataType`
 - [Keynote](https://apps.apple.com/ru/app/keynote/id409183694)
 - [Hidden Bar](https://github.com/dwarvesf/hidden)
   - `brew install --cask hiddenbar`
+- [Karabiner-Elements](https://karabiner-elements.pqrs.org/)
+  - non_us_backslash -> grave_accent_and_tilde
+  - caps_lock -> left_control
