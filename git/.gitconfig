@@ -9,7 +9,7 @@
 [init]
         defaultBranch = master
 [url "ssh://git@stash.odkl.ru:7999"]
-        insteadOf = https://stash.odkl.ru
+	insteadOf = https://stash.odkl.ru
 [pull]
         rebase = true
 [interactive]

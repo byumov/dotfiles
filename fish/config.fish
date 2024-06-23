@@ -3,6 +3,7 @@ set fish_greeting
 # brew
 export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/opt/homebrew/sbin:$PATH"
+export PATH="/usr/local/bin:$PATH"
 
 # hishstory https://github.com/ddworken/hishtory
 export HISHTORY_SERVER=http://history.buymov.ru
@@ -13,7 +14,8 @@ alias ls="lsd"
 alias vim='nvim'
 alias ll="ls -la"
 alias k="kubectl --insecure-skip-tls-verify"
-
+alias k-pole="KUBECONFIG=/Users/ivan.buymov/.kube/config_pole kubectl --insecure-skip-tls-verify"
+alias helm-pole="helm --kubeconfig /Users/ivan.buymov/.kube/config_pole"
 
 # OK aliases
 alias tp='ssh -J tp'
@@ -23,8 +25,8 @@ alias cqn='tp -n srvk1601 '\''/usr/local/bin/cmdb -msf3'\'''
 alias adm="tp srvk1601"
 alias cqn='cmdb -msf3'
 alias dipower='ssh -n srvk1601 '\''/usr/local/bin/dipower'\'''
-alias vsearch='/Users/ivan.buymov/.pyenv/versions/ok-pyvault2/bin/python /Users/ivan.buymov/.pyenv/versions/ok-pyvault2/bin/vault-search'
-alias vget='/Users/ivan.buymov/.pyenv/versions/ok-pyvault2/bin/python /Users/ivan.buymov/.pyenv/versions/ok-pyvault2/bin/vault-kv-get'
+alias vsearch='VAULT_ADDR=https://dl.vault.odkl.io /Users/ivan.buymov/.pyenv/versions/ok-pyvault/bin/python /Users/ivan.buymov/.pyenv/versions/ok-pyvault/bin/vault-search'
+alias vget='VAULT_ADDR=https://dl.vault.odkl.io /Users/ivan.buymov/.pyenv/versions/ok-pyvault/bin/python /Users/ivan.buymov/.pyenv/versions/ok-pyvault/bin/vault-kv-get'
 alias vlogin='VAULT_ADDR=https://dl.vault.odkl.io vault login -method=ldap username=ivan.buymov'
 alias s3-ok-test='aws --profile odkl-test --endpoint-url=https://s3-test.odkl.io --no-verify-ssl s3'
 alias s3-ok='aws --profile odkl --endpoint-url=https://s3.odkl.io --no-verify-ssl s3'
@@ -33,6 +35,7 @@ alias kinit='kinit ivan.buymov@LOCAL.ODKL.RU'
 
 # OK vars
 export IDM_USER="ivan.buymov"
+export conf_service_properties='conf.odkl.io'
 
 # fix ssh err: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
 # https://stackoverflow.com/questions/35621614/i-got-warning-setlocale-lc-ctype-when-i-ssh-connect-to-vagrant-centos-6

@@ -40,7 +40,8 @@ brew install orbstack \
              coreutils \
              lsd \
              git-delta \
-             ffmpeg
+             ffmpeg \
+             ipcalc
 ```
 
 ### Configs
@@ -73,6 +74,7 @@ List fonts: `system_profiler SPFontsDataType`
 - [sshfs + macFUSE](https://osxfuse.github.io/)
 - [Paw (rapid api)](https://paw.cloud/)
 - [Monosnap](https://apps.apple.com/us/app/monosnap-screenshot-editor/id540348655)
+- [Ice](https://github.com/jordanbaird/Ice) hide bar icons
 - [Raycast](https://www.raycast.com/)
   - bitwarden
   - clipboard history
@@ -81,11 +83,8 @@ List fonts: `system_profiler SPFontsDataType`
   - hotkeys for resize windows
 - [Anytype](https://anytype.io/)
 - [Keynote](https://apps.apple.com/ru/app/keynote/id409183694)
-- [Hidden Bar](https://github.com/dwarvesf/hidden)
-  - `brew install --cask hiddenbar`
 - [Karabiner-Elements](https://karabiner-elements.pqrs.org/)
   - non_us_backslash -> grave_accent_and_tilde
   - caps_lock -> left_control
 - [Winbox](https://github.com/nrlquaker/winbox-mac)
 - [Яндекс.Музыка](https://www.music.yandex.ru/download/)
-
