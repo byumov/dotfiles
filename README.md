@@ -41,6 +41,7 @@ brew install orbstack \
              lsd \
              git-delta \
              ffmpeg \
+             tmux \
              ipcalc
 ```
 
