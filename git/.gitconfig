@@ -1,6 +1,6 @@
 [user]
         name = Ivan Buymov
-        email = ivan.buymov@corp.mail.ru
+        email = ivan@buymov.ru
 [core]
         excludesfile = /Users/ivan.buymov/.gitignore
         ignorecase = true
@@ -18,10 +18,6 @@
     navigate = true    # use n and N to move between diff sections
     side-by-side = true
     line-numbers = true
-
-    # delta detects terminal colors automatically; set one of these to disable auto-detection
-    # dark = true
-    # light = true
 
 [merge]
     conflictstyle = diff3
