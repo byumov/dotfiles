@@ -1,0 +1,26 @@
+font-family = "PragmataProMonoLiga Nerd Font"
+font-size = 15
+theme = "Dracula+"
+shell-integration = fish
+command = /opt/homebrew/bin/fish --login --interactive
+copy-on-select = clipboard
+window-decoration = none
+scrollback-limit = 1000000
+
+unfocused-split-opacity = 0.65
+
+keybind = ctrl+f>5=new_split:up
+keybind = ctrl+f>-=new_split:up
+keybind = ctrl+f>'=new_split:right
+
+keybind = ctrl+f>left=goto_split:left
+keybind = ctrl+f>down=goto_split:bottom
+keybind = ctrl+f>up=goto_split:top
+keybind = ctrl+f>right=goto_split:right
+
+mouse-hide-while-typing = true
+
+font-style-bold = Bold
+font-style-italic = Italic
+font-style-bold-italic = Bold Italic
+
