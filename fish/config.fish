@@ -12,6 +12,7 @@ export HISHTORY_SERVER=http://history.buymov.ru
 #alias ls="eza --icons"
 alias ls="lsd"
 alias vim='nvim'
+alias cat='bat'
 alias ll="ls -la"
 alias k="kubectl --insecure-skip-tls-verify"
 alias k-pole="KUBECONFIG=/Users/ivan.buymov/.kube/config_pole kubectl --insecure-skip-tls-verify"
@@ -86,3 +87,4 @@ export PATH="$PATH:/Users/ivan.buymov/.hishtory"
 source /Users/ivan.buymov/.hishtory/config.fish
 
 source /Users/ivan.buymov/.config/fish/config_private.fish
+export PATH="$PATH:$HOME/.rye/shims/"
