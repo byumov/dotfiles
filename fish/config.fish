@@ -18,6 +18,7 @@ alias k="kubectl --insecure-skip-tls-verify"
 alias k-pole="KUBECONFIG=/Users/ivan.buymov/.kube/config_pole kubectl --insecure-skip-tls-verify"
 alias helm-pole="helm --kubeconfig /Users/ivan.buymov/.kube/config_pole"
 alias cat="bat"
+alias cmdb="/Users/ivan.buymov/work/cmdb"
 
 # OK aliases
 #alias tp='ssh -J tp'

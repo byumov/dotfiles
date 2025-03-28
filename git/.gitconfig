@@ -24,3 +24,7 @@
 
 [diff]
     colorMoved = default
+
+[url "ssh://git@gitlab.rip/"]
+    insteadOf = https://gitlab.rip/
+
