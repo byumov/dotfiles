@@ -1,4 +1,4 @@
-font-family = "PragmataProMonoLiga Nerd Font"
+font-family = "PragmataProLiga Nerd Font"
 font-size = 15
 theme = "Dracula+"
 shell-integration = fish
@@ -23,4 +23,3 @@ mouse-hide-while-typing = true
 font-style-bold = Bold
 font-style-italic = Italic
 font-style-bold-italic = Bold Italic
-

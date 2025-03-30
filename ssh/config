@@ -1,0 +1,13 @@
+#Include ~/.orbstack/ssh/config
+
+Host *
+   StrictHostKeyChecking no
+   UserKnownHostsFile=/dev/null
+   UseKeychain yes
+   User ivan.buymov
+   ForwardAgent yes
+   SetEnv TERM=xterm-256color
+
+Host home.buymov.ru
+    HostName home.buymov.ru
+    User ivan
