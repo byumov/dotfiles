@@ -18,6 +18,8 @@ keybind = ctrl+f>down=goto_split:bottom
 keybind = ctrl+f>up=goto_split:top
 keybind = ctrl+f>right=goto_split:right
 
+keybind = ctrl+f>[=write_screen_file:paste
+
 mouse-hide-while-typing = true
 
 font-style-bold = Bold
