@@ -43,7 +43,8 @@ brew install orbstack \
              ffmpeg \
              tmux \
              kubectl \
-             ipcalc
+             ipcalc \
+             rye
 ```
 
 ### Configs
